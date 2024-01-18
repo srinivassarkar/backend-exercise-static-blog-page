@@ -1,0 +1,12 @@
+  <div class="container mt-5">
+    <ul class="list-group">
+      {{#each blogs}}
+      <li class="list-group-item">
+        <a href="/blogPost/{{this.slug}}" class="text-decoration-none"><h4>{{this.slug}}.{{this.title}}</h4></a>
+        
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+
+  
